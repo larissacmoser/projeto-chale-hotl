@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#container {
+  display: flex;
+  justify-content: flex-start;
+  width: 1258px;
+  flex-wrap: wrap;
+}
+#topo {
+  width: 790px;
+  height: 250px;
+  margin: 5px 40px;
+  background: url(../imagens/topo-imagem-principal.png);
+}
+ul {
+  position: absolute;
+  left: 800px;
+  top: 37px;
+  z-index: 9999;
+}
+li {
+  padding: 10px;
+  cursor: pointer;
+}
+li:hover {
+  color: white;
+  animation: bigText 3s;
+}
+@keyframes bigText {
+  from {
+    font-size: 16px;
+  }
+  to {
+    font-size: 20px;
+  }
+}
+#meio {
+  background: url(../imagens/bg-area-principal.png) repeat-x;
+  width: 100%;
+  height: 25px;
+  margin-left: 40px;
+}
+
+#conteudo {
+  background: url(../imagens/bg-container.png) repeat-y;
+  width: 1630px;
+  margin-left: 40px;
+  display: flex;
+}
+#esquerda {
+  width: 630px;
+  margin-left: 40px;
+}
+#direita {
+  background-color: #ded9b7;
+  width: 548px;
+  z-index: 9999;
+}
+h4 {
+  color: #897c34;
+}
+h4,
+p {
+  padding: 20px;
+}
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+.img-align {
+  margin: 10px 40px;
+  width: 150px;
+}
+
+.column p {
+  padding-top: 0px;
+}
+
+.divider {
+  background-color: white;
+  width: 482px;
+  height: 2px;
+  margin-left: 25px;
+}
